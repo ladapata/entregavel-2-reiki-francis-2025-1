@@ -3,6 +3,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import Float64 # esse tópico é atualizado a cada 0,5s
 
+
 class temperature_avg_monitor(Node):
 
   def __init__(self):
